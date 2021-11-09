@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "idiotenspielplatz",
+  "version": "${version}",
+
+  "name": "Idiotenspielplatz",
+  "description": "Mod for the Idiotenspielplatz Survival Server",
+  "authors": [
+    "Melvin Focke"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/melvinfocke/idiotenspielplatz-mod"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/idiotenspielplatz/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.melvinfocke.idiotenspielplatz.Idiotenspielplatz"
+    ],
+    "client": [
+      "com.melvinfocke.idiotenspielplatz.IdiotenspielplatzClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

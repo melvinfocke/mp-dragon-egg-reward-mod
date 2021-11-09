@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    },
+    {
+      "item": "firstfabricmod:ruby"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  },
+  "group": "firstfabricmod"
+}

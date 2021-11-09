@@ -1,0 +1,9 @@
+{
+  "item.firstfabricmod.ruby": "§cRuby",
+  "item.firstfabricmod.backpack": "Backpack",
+  "container.firstfabricmod.backpackBackgroundColor": "FFC6C6C6",
+  "block.firstfabricmod.ruby_block": "§cRuby Block",
+  "block.firstfabricmod.big_chest": "Big Chest",
+  "itemGroup.firstfabricmod.general": "First Fabric Mod",
+  "itemGroup.firstfabricmod.other": "Additional Tab"
+}
