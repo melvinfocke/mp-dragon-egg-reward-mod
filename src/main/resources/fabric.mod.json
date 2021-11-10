@@ -17,15 +17,9 @@
   "icon": "assets/idiotenspielplatz/icon.png",
 
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "com.melvinfocke.idiotenspielplatz.Idiotenspielplatz"
-    ],
-    "client": [
-      "com.melvinfocke.idiotenspielplatz.IdiotenspielplatzClient"
-    ]
-  },
+  "entrypoints": {},
   "mixins": [
+    "idiotenspielplatz.mixins.json"
   ],
 
   "depends": {
