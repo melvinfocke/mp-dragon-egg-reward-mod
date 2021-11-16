@@ -4,7 +4,7 @@ MP Dragon Egg Reward is a free and open-source Minecraft Mod (under GNU GPLv3). 
 
 ## Installation on Fabric Server
 
-This mod is primarly for servers but you can install it on clients. On a Fabric Server clients don't need the MP Dragon Egg Reward Mod.
+This mod is primarily for servers, but you can install it on clients. On a Fabric Server clients don't need the MP Dragon Egg Reward Mod.
 
 You will need a Fabric Server with Fabric 0.11.3 or newer in order to load MP Dragon Egg Reward. You also need Fabric API 0.40.8+1.17 or newer. If you haven't installed Fabric mods before, you can find a variety of community guides for doing so [here](https://fabricmc.net/wiki/install).
 
