@@ -1,7 +1,7 @@
-package com.melvinfocke.idiotenspielplatz.mixin;
+package com.melvinfocke.mpdragoneggreward.mixin;
 
 import com.google.gson.JsonParser;
-import com.melvinfocke.idiotenspielplatz.RewardType;
+import com.melvinfocke.mpdragoneggreward.RewardType;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.boss.dragon.EnderDragonEntity;

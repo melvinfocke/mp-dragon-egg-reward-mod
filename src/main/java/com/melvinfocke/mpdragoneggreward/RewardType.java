@@ -1,4 +1,4 @@
-package com.melvinfocke.idiotenspielplatz;
+package com.melvinfocke.mpdragoneggreward;
 
 public enum RewardType {
     GIVE_DRAGON_EGG,

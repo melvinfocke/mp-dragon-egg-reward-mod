@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "idiotenspielplatz",
+  "id": "mpdragoneggreward",
   "version": "${version}",
 
-  "name": "Idiotenspielplatz",
-  "description": "Mod for the Idiotenspielplatz Survival Server",
+  "name": "MP Dragon Egg Reward",
+  "description": "This mod spawns a dragon egg for each player after defeating the Ender Dragon",
   "authors": [
     "Melvin Focke"
   ],
   "contact": {
     "homepage": "",
-    "sources": "https://github.com/melvinfocke/idiotenspielplatz-mod"
+    "sources": "https://github.com/melvinfocke/mp-dragon-egg-reward-mod"
   },
 
   "license": "GPL-3.0",
-  "icon": "assets/idiotenspielplatz/icon.png",
+  "icon": "assets/mpdragoneggreward/icon.png",
 
   "environment": "*",
   "entrypoints": {},
   "mixins": [
-    "idiotenspielplatz.mixins.json"
+    "mpdragoneggreward.mixins.json"
   ],
 
   "depends": {
