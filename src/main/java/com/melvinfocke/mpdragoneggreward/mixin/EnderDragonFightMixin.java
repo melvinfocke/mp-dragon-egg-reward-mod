@@ -25,7 +25,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-@SuppressWarnings("unused")
+@SuppressWarnings("ALL")
 @Mixin(EnderDragonFight.class)
 public abstract class EnderDragonFightMixin {
     private final boolean PLACE_DRAGON_EGGS = true;
@@ -38,6 +38,7 @@ public abstract class EnderDragonFightMixin {
         this.previouslyKilled = true;
         world.setBlockState(world.getTopPosition(Heightmap.Type.MOTION_BLOCKING, EndPortalFeature.ORIGIN), Blocks.AIR.getDefaultState());
 
+        /* JsonParser is deprecated */
         JsonParser jsonParser = new JsonParser();
         try (FileReader reader = new FileReader("previous-dragon-killers.json")) {
             JsonArray previousDragonKillers = jsonParser.parse(reader).getAsJsonArray();
